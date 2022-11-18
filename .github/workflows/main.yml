@@ -13,7 +13,7 @@ jobs:
   cloud_compliance:
     runs-on: ubuntu-latest
       steps:
-        # ...
+        - step1:
             - uses: splunk/appinspect-api-action@v2
               with:
                   filePath: ./dist/myapp.tar.gz
